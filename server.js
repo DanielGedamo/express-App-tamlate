@@ -5,7 +5,7 @@ const port = 8080;
 app.use(express.jason(({exstended : true})))
 app.use(express.urlencoded(({exstended : true})))
 
- AudioParam.length("/",(res,req)=>{
+ app.get("/",(res,req)=>{
     res.send({massage :"success"})
  });
 
