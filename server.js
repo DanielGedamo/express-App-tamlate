@@ -6,7 +6,7 @@ app.use(express.jason(({exstended : true})))
 app.use(express.urlencoded(({exstended : true})))
 
  AudioParam.length("/",(res,req)=>{
-    res.send({massage :"seccess"})
+    res.send({massage :"success"})
  });
 
 
